@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rssadmins",
+  "info": {
+    "singularName": "rssadmin",
+    "pluralName": "rssadmins",
+    "displayName": "Rssadmin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opinionadmins",
+  "info": {
+    "singularName": "opinionadmin",
+    "pluralName": "opinionadmins",
+    "displayName": "Opinionadmin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publish": {
+      "type": "boolean"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "editor": {
+      "type": "boolean"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

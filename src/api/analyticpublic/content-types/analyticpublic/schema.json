@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analyticpublics",
+  "info": {
+    "singularName": "analyticpublic",
+    "pluralName": "analyticpublics",
+    "displayName": "Analyticpublic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "origin": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

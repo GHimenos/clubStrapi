@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analyticadmins",
+  "info": {
+    "singularName": "analyticadmin",
+    "pluralName": "analyticadmins",
+    "displayName": "Analyticadmin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "publish": {
+      "type": "boolean"
+    },
+    "editor": {
+      "type": "boolean"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

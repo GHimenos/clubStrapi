@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newspublics",
+  "info": {
+    "singularName": "newspublic",
+    "pluralName": "newspublics",
+    "displayName": "Newspublic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "origin": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
