@@ -1,11 +1,11 @@
 module.exports = ({ env }) => ({
   email: {
-  config: {
-    provider: 'sendmail',
-    settings: {
-      defaultFrom: 'petrushkapapasov@yandex.ru',
-      defaultReplyTo: 'petrushkapapasov@yandex.ru',
+    config: {
+      provider: "sendmail",
+      settings: {
+        defaultFrom: "petrushkapapasov3@yandex.ru",
+        defaultReplyTo: "petrushkapapasov3@yandex.ru",
+      },
     },
-  },
   },
 });
