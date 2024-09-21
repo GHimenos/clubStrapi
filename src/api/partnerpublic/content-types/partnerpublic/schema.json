@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partnerpublics",
+  "info": {
+    "singularName": "partnerpublic",
+    "pluralName": "partnerpublics",
+    "displayName": "Partnerpublic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "integer"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

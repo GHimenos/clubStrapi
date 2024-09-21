@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opinionpublics",
+  "info": {
+    "singularName": "opinionpublic",
+    "pluralName": "opinionpublics",
+    "displayName": "Opinionpublic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "origin": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

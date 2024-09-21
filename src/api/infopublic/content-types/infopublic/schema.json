@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infopublics",
+  "info": {
+    "singularName": "infopublic",
+    "pluralName": "infopublics",
+    "displayName": "Infopublic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "cover": {
+      "type": "string"
+    }
+  }
+}
