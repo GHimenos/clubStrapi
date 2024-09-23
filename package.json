@@ -1,5 +1,5 @@
 {
-  "name": "club-experts-api",
+  "name": "club-experts-v-2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,23 +7,29 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.6.0",
-    "@strapi/plugin-users-permissions": "4.6.0",
-    "@strapi/strapi": "4.6.0",
-    "better-sqlite3": "^8.4.0",
-    "@strapi/provider-email-sendmail": "^4.10.7"
+    "@strapi/strapi": "4.25.8",
+    "@strapi/plugin-users-permissions": "4.25.8",
+    "@strapi/plugin-i18n": "4.25.8",
+    "@strapi/plugin-cloud": "4.25.8",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a16c1a55-dcad-47e4-80e3-8477eea5b538"
+    "uuid": "1013ceae-530c-4670-af0c-0bd208352c0b"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

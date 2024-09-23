@@ -81,7 +81,7 @@ ssl
 .idea
 nbproject
 #public/uploads/*
-!public/uploads/.gitkeep
+#!public/uploads/.gitkeep
 
 ############################
 # Node.js
@@ -99,7 +99,6 @@ node_modules
 # Tests
 ############################
 
-testApp
 coverage
 
 ############################
@@ -109,7 +108,8 @@ coverage
 .env
 license.txt
 exports
-*.cache
+.strapi
 dist
 build
 .strapi-updater.json
+.strapi-cloud.json
