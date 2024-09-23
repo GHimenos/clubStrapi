@@ -14,14 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install dependencies, build
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
-      - run: npm i
-      - run: npm run build
-      - run: rm .strapi-updater.json
-
       - name: Copy dist folder via scp
         uses: appleboy/scp-action@master
         with:
@@ -30,7 +22,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: "."
-          target: "stage/back"
+          target: "prod/back"
 
       - name: Restart pm2
         uses: appleboy/ssh-action@master
